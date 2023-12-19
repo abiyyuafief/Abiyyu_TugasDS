@@ -46,7 +46,7 @@ public class Calculator {
                 System.out.println("Invalid choice");
                 return;
         }
-
+        System.out.println("");
         // Display the result
         System.out.println("Result: " + result);
     }
