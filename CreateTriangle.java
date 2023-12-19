@@ -12,8 +12,11 @@ public class CreateTriangle {
                 } else if ((i+j)==9){
                     break;
                 }
+                
             }
             System.out.print("\n");
         }
+        System.out.println("");
+        System.out.println("Testing");
     }
 }

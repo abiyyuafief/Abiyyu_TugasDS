@@ -5,6 +5,7 @@ public class Calculator {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Membuat Kalkulator");
+        System.out.println();
 
         System.out.print("Masukkan angka pertama: ");
         double num1 = scanner.nextDouble();
@@ -45,8 +46,9 @@ public class Calculator {
                 System.out.println("Invalid choice");
                 return;
         }
-
+        System.out.println("");
         // Display the result
         System.out.println("Result: " + result);
     }
 }
+
