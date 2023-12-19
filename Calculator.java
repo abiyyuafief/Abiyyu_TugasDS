@@ -51,3 +51,4 @@ public class Calculator {
         System.out.println("Result: " + result);
     }
 }
+
